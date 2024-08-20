@@ -1,0 +1,53 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Ignore metadata of imported assets
+/[Aa]ssets/[^.]*.meta
+
+# Ignore all logs
+/[Ll]ogs/
+
+# Ignore library files
+/[Ll]ibrary/
+
+# Ignore temp files
+/[Tt]emp/
+
+# Ignore build files
+/[Bb]uild/
+/[Bb]uilds/
+
+# Ignore obj files
+/[Oo]bj/
+
+# Ignore backup files
+/[Bb]ackup[0-9]*/
+
+# Ignore all auto-generated files
+sysinfo.txt
+
+# VS/VSCode cache and configuration
+.vsconfig
+.vs/
+.vscode/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore crashlytics settings (for Firebase users)
+crashlytics-build.properties
